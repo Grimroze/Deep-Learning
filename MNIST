@@ -1,0 +1,4 @@
+✅ Input layer – takes a 28×28 pixel image.
+✅ Flatten layer – converts each 2D image (28×28) into a 1D vector (784 values).
+✅ Dense(128, relu) – hidden layer with 128 neurons that learns patterns.
+✅ Dense(10, softmax) – output layer for 10 digits (0–9), producing probabilities.
